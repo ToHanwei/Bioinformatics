@@ -18,3 +18,4 @@ for i in range(text_len - pat_len + 1):
 		starts.append(i)
 
 print(*starts)	
+print(len(starts))
