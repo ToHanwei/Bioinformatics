@@ -86,7 +86,7 @@ with open(infile) as argf:
 step = 0
 best = float('inf')
 bestm = []
-while step < 1000:
+while step < 200:
 	motifs, score = GibbsSampler(dnas, k, t, N)
 	if best > score:
 		bestm = motifs[:]
